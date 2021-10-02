@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+<form class="schoolinfo" action="processor.php" method="get">
+  <label for="name">Name</label>
+  <br>
+  <input type="text" name="name" value="" required>
+  <br>
+  <label for="cms">CMS NO#</label>
+  <br>
+  <input type="text" name="cms" value="" required>
+  <br>
+  <label for="d-user">Discord Username</label>
+  <br>
+  <input type="text" name="d-user" value="" required>
+  <br>
+  <label for="email">E-Mail</label>
+  <br>
+  <input type="email" name="email" value="" required>
+  <br>
+  <select class="Class" name="Class">
+    <option value="Select your Class" selected>Select your Class</option>
+    <option value="C2 Green">C2 Green</option>
+    <option value="C2 Silver" disabled>C2 Silver</option>
+    <option value="C2 Maroon" disabled>C2 Maroon</option>
+    <option value="C2 Blue" disabled>C2 Blue</option>
+    <option value="" disabled></option>
+    <option value="" disabled></option>
+    <option value="" disabled></option>
+    <option value="" disabled></option>
+  </select>
+  <br>
+  <input type="submit" name="submit" value="submit">
+</form>
+  </body>
+</html>
